@@ -2,7 +2,7 @@
 
 Um aplicativo de lista de tarefas (TodoList) construído com React. Este projeto permite que os usuários adicionem, pesquisem e atualizem itens na lista, além de alternar entre temas claro e escuro. Os itens são salvos no localStorage, garantindo que eles persistam mesmo após o fechamento do navegador.
 
-[Link da aplicação]()
+[Link da aplicação](https://todolist0507.netlify.app/)
 
 ## Funcionalidades ✨
 
