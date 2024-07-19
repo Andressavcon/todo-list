@@ -1,0 +1,8 @@
+.listItemContent {
+  background-color: #5d222e25;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

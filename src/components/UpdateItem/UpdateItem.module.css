@@ -1,0 +1,53 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.form {
+  background: var(--background);
+  border: 3px solid #d88394;
+  height: 15rem;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.updateItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin: 0 1rem;
+  padding: 1.5rem;
+  background-color: #5d222e25;
+  border-radius: 1rem;
+}
+
+.updateItemInputs {
+  display: flex;
+
+  justify-content: space-between;
+  width: 100%;
+}
+
+.updateItemAdd {
+  width: 80%;
+}
+.updateItemAmount {
+  text-align: center;
+  width: 20%;
+}

@@ -1,0 +1,41 @@
+.todoList {
+  width: 80%;
+  margin: auto;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2,
+h3 {
+  text-align: center;
+  opacity: 0.2;
+  padding: 2rem;
+}
+
+.todoList h4 {
+  opacity: 0.7;
+  text-transform: uppercase;
+  text-align: start;
+  margin: 2rem 0;
+  padding: 0.2rem;
+  border-bottom: 1px solid #d88394;
+}
+
+input::placeholder {
+  color: var(--primary);
+}
+
+label {
+  font-size: 1.3rem;
+  margin-left: 0.5rem;
+}
+
+@media screen and (min-width: 760px) {
+  .todoList {
+    width: 50%;
+  }
+}
